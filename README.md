@@ -2,7 +2,9 @@
 
 This add-on board for [OVMS (Open Vehicle Monitoring System)](https://www.openvehicles.com/) adds Single-Wire CAN (GMLAN) functionality to OVMS 3.0 module.
 
-This board uses the same MCP2515 CAN controller as OVMS module, but instead of SN65 transceiver, it employs TH8056 which fully supports SWCAN functionality. While SN65 (and other CAN transceivers) can be used to receive/transmit CAN messages on SWCAN bus, they unfortunately are unable to wake the car with the so called high-voltage wake up (to raise CAN bus line to 12v). Thus OVMS hasn't been so useful with those cars with most of the functionality on SWCAN bus (such as GM/Chevrolet brands) so far. This add-on board however adds the full support for SWCAN communication and allows such remote functionality as locking/unlocking the car, cabinet/engine preheating, polling environmental variables (temperature) etc even when the car is asleep. The SWCAN circuitry is heavily inspired by same implementation found on [Macchina M2](https://www.macchina.cc/) interface board. However this board in designed connect directly to the OVMS extension header and to fit inside the existing plastic case on top of the optional GSM/GPS module.
+This board uses the same MCP2515 CAN controller as OVMS module, but instead of SN65 transceiver, it employs TH8056 which fully supports SWCAN functionality. While SN65 (and other CAN transceivers) can be used to receive/transmit CAN messages on SWCAN bus, they unfortunately are unable to wake the car with the so called high-voltage wake up (to raise CAN bus line to 12v). Thus OVMS hasn't been so useful with those cars with most of the functionality on SWCAN bus (such as GM/Chevrolet brands) so far. 
+
+This add-on board however adds the full support for SWCAN communication and allows such remote functionality as locking/unlocking the car, cabinet/engine preheating, polling environmental variables (temperature) etc even when the car is asleep. The SWCAN circuitry is heavily inspired by same implementation found on [Macchina M2](https://www.macchina.cc/) interface board. However this board in designed connect directly to the OVMS extension header and to fit inside the existing plastic case on top of the optional GSM/GPS module.
 
 In addition to SWCAN bus functionality, there's also 3 LEDS, various debugging test points and a 13 pin header to facilitate easier connection to logic analyzer. 
 
@@ -15,6 +17,7 @@ To actually wire the SWCAN bus lines to the board, there are several ways.
   4. Create OBD cable so that GND is connected to CAN2_LO, SWCAN_HI to CAN2_HI. Then jumper pin 16 (CAN2_HI) to pin 19 on DB25 (or use the dongle mentioned below). This actually then replaces the third CAN bus (CAN2) and the second internal MCP2515, which is put to sleep with modified OVMS code. This approach doesn't require internal modification of the OVMS module.
 
 The cable I use with my Opel Ampera / Chevrolet Volt uses the approach #4:
+
 | OBD-pin | DB9-pin | Comment |
 | ------ | ------ | ------- |
 | 1 | 8 | SWCAN_HI --> CAN2_HI  | 
