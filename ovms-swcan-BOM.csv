@@ -1,0 +1,29 @@
+Id;Designator;Package;Quantity;Designation;Supplier and ref;Mouser ref;Comment
+1;JP6;SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm;1;BTN2_SEL;;;
+2;JP5;SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm;1;BTN1_SEL;;;
+3;C5;C_1806_4516Metric_Pad1.57x1.80mm_HandSolder;1;10uF;;;
+4;U2;SOIC-8_3.9x4.9mm_P1.27mm-HS;1;TH8056-KDC-A8;TH8056KDC-AAA-008-RE;482-8056KDCAAA008RE;
+5;R10,R9,R7;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;3;R;;;
+6;D3;D_0805_2012Metric_Pad1.15x1.40mm_HandSolder;1;RX_LED;LO L296-P1S1-24-Z;720-LOL296P1S124Z;Orange LED
+7;D2;D_0805_2012Metric_Pad1.15x1.40mm_HandSolder;1;TX_LED;VLMB1300-GS08;78-VLMB1300-GS08;Blue LED
+8;D1;D_0805_2012Metric_Pad1.15x1.40mm_HandSolder;1;STATUS_LED;LS L296-N1Q2-1-Z;720-LSL296-N1Q2-1-Z;Red LED
+9;Y1;NX5032GA-SMD_Crystal_2Pin_5.0x3.2mm_HandSoldering;1;Crystal;NX5032GA-16.000M-STD-CSU-2;344-NX5032GA16MCSU2;
+10;U1;SOIC-18W_7.5x11.6mm_P1.27mm_HS;1;MCP2515-E/SO;MCP2515-E/SO;579-MCP2515-E/SO;
+11;TVS1;DO-214AC_Handsoldering;1;22V;SMAJ22CA;652-SMAJ22CA;
+12;TP1;TestPoint_THTPad_1.5x1.5mm_Drill0.7mm;1;TestPoint;;;
+13;R12,R11,R4,R3,R2,R1;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;6;10K;;;
+14;R8;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;6.49K;;;
+15;R6;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;1K;;;
+16;R5;R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;10K?;;;
+17;L1;L_Custom_2.50x2.90mm_HandSolder;1;47 uH;CM322522-470JL;652-CM322522-470JL;
+18;JP3;SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels;1;M1_SEL;;;
+19;JP2;SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels;1;M0_SEL;;;
+20;JP1;SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm;1;RESET_SEL;;;
+21;J4;PinSocket_1x13_P2.54mm_Vertical;1;Conn_01x13_Male;;;
+22;J3;PinHeader_1x02_P2.54mm_Vertical;1;CONN_SWCAN;;;
+23;J2;PinHeader_1x02_P2.54mm_Vertical;1;CONN_PWR;;;
+24;J1;OVMS_V3.1_EXTENSION ;2;OVMS-V3.1-EXPANSION;M22-2511405;855-M22-2511405;14-pin header, 2mm pitch
+25;C7;C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;100pF;;;
+26;C6,C3;C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;2;100n;;;
+27;C4;C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;220pF;;;
+28;C2,C1;C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;2;9pF;;;
